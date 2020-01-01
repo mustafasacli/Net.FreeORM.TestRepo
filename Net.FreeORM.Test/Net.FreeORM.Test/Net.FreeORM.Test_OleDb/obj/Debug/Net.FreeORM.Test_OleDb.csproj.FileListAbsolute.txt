@@ -1,0 +1,8 @@
+E:\Projects\FreeORM_Project\Net.FreeORM.Test\Net.FreeORM.Test\Net.FreeORM.Test_OleDb\bin\Debug\Net.FreeORM.Test_OleDb.exe.config
+E:\Projects\FreeORM_Project\Net.FreeORM.Test\Net.FreeORM.Test\Net.FreeORM.Test_OleDb\bin\Debug\Net.FreeORM.Test_OleDb.exe
+E:\Projects\FreeORM_Project\Net.FreeORM.Test\Net.FreeORM.Test\Net.FreeORM.Test_OleDb\bin\Debug\Net.FreeORM.Test_OleDb.pdb
+E:\Projects\FreeORM_Project\Net.FreeORM.Test\Net.FreeORM.Test\Net.FreeORM.Test_OleDb\obj\Debug\Net.FreeORM.Test_OleDb.Properties.Resources.resources
+E:\Projects\FreeORM_Project\Net.FreeORM.Test\Net.FreeORM.Test\Net.FreeORM.Test_OleDb\obj\Debug\Net.FreeORM.Test_OleDb.csproj.GenerateResource.Cache
+E:\Projects\FreeORM_Project\Net.FreeORM.Test\Net.FreeORM.Test\Net.FreeORM.Test_OleDb\obj\Debug\Net.FreeORM.Test_OleDb.exe
+E:\Projects\FreeORM_Project\Net.FreeORM.Test\Net.FreeORM.Test\Net.FreeORM.Test_OleDb\obj\Debug\Net.FreeORM.Test_OleDb.pdb
+E:\Projects\FreeORM_Project\Net.FreeORM.Test\Net.FreeORM.Test\Net.FreeORM.Test_OleDb\bin\Debug\Net.FreeORM.dll

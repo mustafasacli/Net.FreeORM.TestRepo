@@ -1,0 +1,11 @@
+E:\Projects\FreeORM_Project\Net.FreeORM.Test\Net.FreeORM.Test\Net.FreeORM.Test_PostgreSQL\bin\Debug\Net.FreeORM.Test_PostgreSQL.exe.config
+E:\Projects\FreeORM_Project\Net.FreeORM.Test\Net.FreeORM.Test\Net.FreeORM.Test_PostgreSQL\bin\Debug\Net.FreeORM.Test_PostgreSQL.exe
+E:\Projects\FreeORM_Project\Net.FreeORM.Test\Net.FreeORM.Test\Net.FreeORM.Test_PostgreSQL\bin\Debug\Net.FreeORM.Test_PostgreSQL.pdb
+E:\Projects\FreeORM_Project\Net.FreeORM.Test\Net.FreeORM.Test\Net.FreeORM.Test_PostgreSQL\bin\Debug\Net.FreeORM.dll
+E:\Projects\FreeORM_Project\Net.FreeORM.Test\Net.FreeORM.Test\Net.FreeORM.Test_PostgreSQL\obj\Debug\Net.FreeORM.Test_PostgreSQL.csprojResolveAssemblyReference.cache
+E:\Projects\FreeORM_Project\Net.FreeORM.Test\Net.FreeORM.Test\Net.FreeORM.Test_PostgreSQL\obj\Debug\Net.FreeORM.Test_PostgreSQL.Form1.resources
+E:\Projects\FreeORM_Project\Net.FreeORM.Test\Net.FreeORM.Test\Net.FreeORM.Test_PostgreSQL\obj\Debug\Net.FreeORM.Test_PostgreSQL.Properties.Resources.resources
+E:\Projects\FreeORM_Project\Net.FreeORM.Test\Net.FreeORM.Test\Net.FreeORM.Test_PostgreSQL\obj\Debug\Net.FreeORM.Test_PostgreSQL.csproj.GenerateResource.Cache
+E:\Projects\FreeORM_Project\Net.FreeORM.Test\Net.FreeORM.Test\Net.FreeORM.Test_PostgreSQL\obj\Debug\Net.FreeORM.Test_PostgreSQL.exe
+E:\Projects\FreeORM_Project\Net.FreeORM.Test\Net.FreeORM.Test\Net.FreeORM.Test_PostgreSQL\obj\Debug\Net.FreeORM.Test_PostgreSQL.pdb
+E:\Projects\FreeORM_Project\Net.FreeORM.Test\Net.FreeORM.Test\Net.FreeORM.Test_PostgreSQL\obj\Debug\Net.FreeORM.Test_PostgreSQL.frm_person.resources

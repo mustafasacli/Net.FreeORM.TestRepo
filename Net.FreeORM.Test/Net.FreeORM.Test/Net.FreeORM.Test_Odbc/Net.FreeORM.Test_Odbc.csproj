@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A42B06ED-C021-44CC-9EFA-40F2E2DF6CC8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Net.FreeORM.Test_Odbc</RootNamespace>
+    <AssemblyName>Net.FreeORM.Test_Odbc</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Net.FreeORM">
+      <HintPath>..\..\Net.FreeORM.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Source\BO\ActiveSubstance.cs" />
+    <Compile Include="Source\BO\Additives.cs" />
+    <Compile Include="Source\BO\AdminSettings.cs" />
+    <Compile Include="Source\BO\Bed.cs" />
+    <Compile Include="Source\BO\CulturalStatusData.cs" />
+    <Compile Include="Source\BO\Department.cs" />
+    <Compile Include="Source\BO\Device.cs" />
+    <Compile Include="Source\BO\DeviceBedAssignment.cs" />
+    <Compile Include="Source\BO\DeviceData.cs" />
+    <Compile Include="Source\BO\ExternalTableMap.cs" />
+    <Compile Include="Source\BO\ExtLookupParams.cs" />
+    <Compile Include="Source\BO\FiredDeviceParameterRule.cs" />
+    <Compile Include="Source\BO\FormAgreement.cs" />
+    <Compile Include="Source\BO\FormAnamnezDetail.cs" />
+    <Compile Include="Source\BO\FormAnamnezMaster.cs" />
+    <Compile Include="Source\BO\FormEpikrizDetail.cs" />
+    <Compile Include="Source\BO\FormEpikrizMaster.cs" />
+    <Compile Include="Source\BO\FormHarizmiDetails.cs" />
+    <Compile Include="Source\BO\FormHarizmiHeaderDetails.cs" />
+    <Compile Include="Source\BO\FormHarizmiMaster.cs" />
+    <Compile Include="Source\BO\FormItakiDetails.cs" />
+    <Compile Include="Source\BO\FormItakiHeaderDetails.cs" />
+    <Compile Include="Source\BO\FormItakiMaster.cs" />
+    <Compile Include="Source\BO\FormNurseObservationDetail.cs" />
+    <Compile Include="Source\BO\FormNurseObservationMaster.cs" />
+    <Compile Include="Source\BO\GCSParameters.cs" />
+    <Compile Include="Source\BO\HarizmiFactors.cs" />
+    <Compile Include="Source\BO\HarizmiTotalScores.cs" />
+    <Compile Include="Source\BO\ItakiFactors.cs" />
+    <Compile Include="Source\BO\ItakiTotalScores.cs" />
+    <Compile Include="Source\BO\Locations.cs" />
+    <Compile Include="Source\BO\Log.cs" />
+    <Compile Include="Source\BO\MatchedPatient.cs" />
+    <Compile Include="Source\BO\MatchedPatientOrder.cs" />
+    <Compile Include="Source\BO\Operation.cs" />
+    <Compile Include="Source\BO\OrderEntry.cs" />
+    <Compile Include="Source\BO\OrderPriority.cs" />
+    <Compile Include="Source\BO\OrderSchedules.cs" />
+    <Compile Include="Source\BO\OrderStatus.cs" />
+    <Compile Include="Source\BO\Parameter.cs" />
+    <Compile Include="Source\BO\ParameterActiveSubstance.cs" />
+    <Compile Include="Source\BO\ParameterInteraction.cs" />
+    <Compile Include="Source\BO\ParameterRelations.cs" />
+    <Compile Include="Source\BO\ParameterType.cs" />
+    <Compile Include="Source\BO\Patient.cs" />
+    <Compile Include="Source\BO\PatientBed.cs" />
+    <Compile Include="Source\BO\PatientCheckpoint.cs" />
+    <Compile Include="Source\BO\PatientDashBoardSnapShot.cs" />
+    <Compile Include="Source\BO\PatientEpisode.cs" />
+    <Compile Include="Source\BO\PatientScore.cs" />
+    <Compile Include="Source\BO\PrescriptionTypes.cs" />
+    <Compile Include="Source\BO\RejectedOrders.cs" />
+    <Compile Include="Source\BO\ReportPatterns.cs" />
+    <Compile Include="Source\BO\ReportSettings.cs" />
+    <Compile Include="Source\BO\Role.cs" />
+    <Compile Include="Source\BO\RoleOperation.cs" />
+    <Compile Include="Source\BO\RouteCategory.cs" />
+    <Compile Include="Source\BO\ScoreParameters.cs" />
+    <Compile Include="Source\BO\ScoreRules.cs" />
+    <Compile Include="Source\BO\StandartTimes.cs" />
+    <Compile Include="Source\BO\TransactionLog.cs" />
+    <Compile Include="Source\BO\Transfer.cs" />
+    <Compile Include="Source\BO\Transport.cs" />
+    <Compile Include="Source\BO\t_BloodGroups.cs" />
+    <Compile Include="Source\BO\t_DrugStatus.cs" />
+    <Compile Include="Source\BO\t_EducationStates.cs" />
+    <Compile Include="Source\BO\t_Ethnicity.cs" />
+    <Compile Include="Source\BO\t_Gender.cs" />
+    <Compile Include="Source\BO\t_GridParams.cs" />
+    <Compile Include="Source\BO\t_MaritalStatus.cs" />
+    <Compile Include="Source\BO\t_Nationality.cs" />
+    <Compile Include="Source\BO\t_Occupation.cs" />
+    <Compile Include="Source\BO\t_OrderCategory.cs" />
+    <Compile Include="Source\BO\t_Religion.cs" />
+    <Compile Include="Source\BO\t_Routes.cs" />
+    <Compile Include="Source\BO\t_Score.cs" />
+    <Compile Include="Source\BO\t_Status.cs" />
+    <Compile Include="Source\BO\t_UnitGroups.cs" />
+    <Compile Include="Source\BO\t_Units.cs" />
+    <Compile Include="Source\BO\t_UnitSets.cs" />
+    <Compile Include="Source\BO\t_UnitTypes.cs" />
+    <Compile Include="Source\BO\t_UserTypes.cs" />
+    <Compile Include="Source\BO\UnitSet.cs" />
+    <Compile Include="Source\BO\UserRole.cs" />
+    <Compile Include="Source\BO\Users.cs" />
+    <Compile Include="Source\BO\UserScoreRule.cs" />
+    <Compile Include="Source\BO\UserToUserNote.cs" />
+    <Compile Include="Source\DL\ActiveSubstanceDL.cs" />
+    <Compile Include="Source\DL\AdditivesDL.cs" />
+    <Compile Include="Source\DL\AdminSettingsDL.cs" />
+    <Compile Include="Source\DL\BedDL.cs" />
+    <Compile Include="Source\DL\CulturalStatusDataDL.cs" />
+    <Compile Include="Source\DL\DepartmentDL.cs" />
+    <Compile Include="Source\DL\DeviceBedAssignmentDL.cs" />
+    <Compile Include="Source\DL\DeviceDataDL.cs" />
+    <Compile Include="Source\DL\DeviceDL.cs" />
+    <Compile Include="Source\DL\ExternalTableMapDL.cs" />
+    <Compile Include="Source\DL\ExtLookupParamsDL.cs" />
+    <Compile Include="Source\DL\FiredDeviceParameterRuleDL.cs" />
+    <Compile Include="Source\DL\FormAgreementDL.cs" />
+    <Compile Include="Source\DL\FormAnamnezDetailDL.cs" />
+    <Compile Include="Source\DL\FormAnamnezMasterDL.cs" />
+    <Compile Include="Source\DL\FormEpikrizDetailDL.cs" />
+    <Compile Include="Source\DL\FormEpikrizMasterDL.cs" />
+    <Compile Include="Source\DL\FormHarizmiDetailsDL.cs" />
+    <Compile Include="Source\DL\FormHarizmiHeaderDetailsDL.cs" />
+    <Compile Include="Source\DL\FormHarizmiMasterDL.cs" />
+    <Compile Include="Source\DL\FormItakiDetailsDL.cs" />
+    <Compile Include="Source\DL\FormItakiHeaderDetailsDL.cs" />
+    <Compile Include="Source\DL\FormItakiMasterDL.cs" />
+    <Compile Include="Source\DL\FormNurseObservationDetailDL.cs" />
+    <Compile Include="Source\DL\FormNurseObservationMasterDL.cs" />
+    <Compile Include="Source\DL\GCSParametersDL.cs" />
+    <Compile Include="Source\DL\HarizmiFactorsDL.cs" />
+    <Compile Include="Source\DL\HarizmiTotalScoresDL.cs" />
+    <Compile Include="Source\DL\ItakiFactorsDL.cs" />
+    <Compile Include="Source\DL\ItakiTotalScoresDL.cs" />
+    <Compile Include="Source\DL\LocationsDL.cs" />
+    <Compile Include="Source\DL\LogDL.cs" />
+    <Compile Include="Source\DL\MatchedPatientDL.cs" />
+    <Compile Include="Source\DL\MatchedPatientOrderDL.cs" />
+    <Compile Include="Source\DL\OperationDL.cs" />
+    <Compile Include="Source\DL\OrderEntryDL.cs" />
+    <Compile Include="Source\DL\OrderPriorityDL.cs" />
+    <Compile Include="Source\DL\OrderSchedulesDL.cs" />
+    <Compile Include="Source\DL\OrderStatusDL.cs" />
+    <Compile Include="Source\DL\ParameterActiveSubstanceDL.cs" />
+    <Compile Include="Source\DL\ParameterDL.cs" />
+    <Compile Include="Source\DL\ParameterInteractionDL.cs" />
+    <Compile Include="Source\DL\ParameterRelationsDL.cs" />
+    <Compile Include="Source\DL\ParameterTypeDL.cs" />
+    <Compile Include="Source\DL\PatientBedDL.cs" />
+    <Compile Include="Source\DL\PatientCheckpointDL.cs" />
+    <Compile Include="Source\DL\PatientDashBoardSnapShotDL.cs" />
+    <Compile Include="Source\DL\PatientDL.cs" />
+    <Compile Include="Source\DL\PatientEpisodeDL.cs" />
+    <Compile Include="Source\DL\PatientScoreDL.cs" />
+    <Compile Include="Source\DL\PrescriptionTypesDL.cs" />
+    <Compile Include="Source\DL\RejectedOrdersDL.cs" />
+    <Compile Include="Source\DL\ReportPatternsDL.cs" />
+    <Compile Include="Source\DL\ReportSettingsDL.cs" />
+    <Compile Include="Source\DL\RoleDL.cs" />
+    <Compile Include="Source\DL\RoleOperationDL.cs" />
+    <Compile Include="Source\DL\RouteCategoryDL.cs" />
+    <Compile Include="Source\DL\ScoreParametersDL.cs" />
+    <Compile Include="Source\DL\ScoreRulesDL.cs" />
+    <Compile Include="Source\DL\StandartTimesDL.cs" />
+    <Compile Include="Source\DL\TransactionLogDL.cs" />
+    <Compile Include="Source\DL\TransferDL.cs" />
+    <Compile Include="Source\DL\TransportDL.cs" />
+    <Compile Include="Source\DL\t_BloodGroupsDL.cs" />
+    <Compile Include="Source\DL\t_DrugStatusDL.cs" />
+    <Compile Include="Source\DL\t_EducationStatesDL.cs" />
+    <Compile Include="Source\DL\t_EthnicityDL.cs" />
+    <Compile Include="Source\DL\t_GenderDL.cs" />
+    <Compile Include="Source\DL\t_GridParamsDL.cs" />
+    <Compile Include="Source\DL\t_MaritalStatusDL.cs" />
+    <Compile Include="Source\DL\t_NationalityDL.cs" />
+    <Compile Include="Source\DL\t_OccupationDL.cs" />
+    <Compile Include="Source\DL\t_OrderCategoryDL.cs" />
+    <Compile Include="Source\DL\t_ReligionDL.cs" />
+    <Compile Include="Source\DL\t_RoutesDL.cs" />
+    <Compile Include="Source\DL\t_ScoreDL.cs" />
+    <Compile Include="Source\DL\t_StatusDL.cs" />
+    <Compile Include="Source\DL\t_UnitGroupsDL.cs" />
+    <Compile Include="Source\DL\t_UnitsDL.cs" />
+    <Compile Include="Source\DL\t_UnitSetsDL.cs" />
+    <Compile Include="Source\DL\t_UnitTypesDL.cs" />
+    <Compile Include="Source\DL\t_UserTypesDL.cs" />
+    <Compile Include="Source\DL\UnitSetDL.cs" />
+    <Compile Include="Source\DL\UserRoleDL.cs" />
+    <Compile Include="Source\DL\UserScoreRuleDL.cs" />
+    <Compile Include="Source\DL\UsersDL.cs" />
+    <Compile Include="Source\DL\UserToUserNoteDL.cs" />
+    <Compile Include="Source\QO\Crud.cs" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

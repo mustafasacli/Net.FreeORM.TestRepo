@@ -1,0 +1,8 @@
+E:\Projects\FreeORM_Project\Net.FreeORM.Test\Net.FreeORM.Test\Net.FreeORM.Test_SQLite\bin\Debug\Net.FreeORM.Test_SQLite.exe.config
+E:\Projects\FreeORM_Project\Net.FreeORM.Test\Net.FreeORM.Test\Net.FreeORM.Test_SQLite\bin\Debug\Net.FreeORM.Test_SQLite.exe
+E:\Projects\FreeORM_Project\Net.FreeORM.Test\Net.FreeORM.Test\Net.FreeORM.Test_SQLite\bin\Debug\Net.FreeORM.Test_SQLite.pdb
+E:\Projects\FreeORM_Project\Net.FreeORM.Test\Net.FreeORM.Test\Net.FreeORM.Test_SQLite\obj\Debug\Net.FreeORM.Test_SQLite.Properties.Resources.resources
+E:\Projects\FreeORM_Project\Net.FreeORM.Test\Net.FreeORM.Test\Net.FreeORM.Test_SQLite\obj\Debug\Net.FreeORM.Test_SQLite.csproj.GenerateResource.Cache
+E:\Projects\FreeORM_Project\Net.FreeORM.Test\Net.FreeORM.Test\Net.FreeORM.Test_SQLite\obj\Debug\Net.FreeORM.Test_SQLite.exe
+E:\Projects\FreeORM_Project\Net.FreeORM.Test\Net.FreeORM.Test\Net.FreeORM.Test_SQLite\obj\Debug\Net.FreeORM.Test_SQLite.pdb
+E:\Projects\FreeORM_Project\Net.FreeORM.Test\Net.FreeORM.Test\Net.FreeORM.Test_SQLite\bin\Debug\Net.FreeORM.dll

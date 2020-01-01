@@ -1,0 +1,11 @@
+E:\Projects\FreeORM_Project\Net.FreeORM.Test\Net.FreeORM.Test\DRT\obj\Debug\DRT.csprojResolveAssemblyReference.cache
+E:\Projects\FreeORM_Project\Net.FreeORM.Test\Net.FreeORM.Test\DRT\obj\Debug\DRT.Form1.resources
+E:\Projects\FreeORM_Project\Net.FreeORM.Test\Net.FreeORM.Test\DRT\obj\Debug\DRT.Properties.Resources.resources
+E:\Projects\FreeORM_Project\Net.FreeORM.Test\Net.FreeORM.Test\DRT\obj\Debug\DRT.csproj.GenerateResource.Cache
+E:\Projects\FreeORM_Project\Net.FreeORM.Test\Net.FreeORM.Test\DRT\bin\Debug\DRT.exe.config
+E:\Projects\FreeORM_Project\Net.FreeORM.Test\Net.FreeORM.Test\DRT\bin\Debug\DRT.exe
+E:\Projects\FreeORM_Project\Net.FreeORM.Test\Net.FreeORM.Test\DRT\bin\Debug\DRT.pdb
+E:\Projects\FreeORM_Project\Net.FreeORM.Test\Net.FreeORM.Test\DRT\bin\Debug\Net.FreeORM.dll
+E:\Projects\FreeORM_Project\Net.FreeORM.Test\Net.FreeORM.Test\DRT\bin\Debug\Net.FreeORM.pdb
+E:\Projects\FreeORM_Project\Net.FreeORM.Test\Net.FreeORM.Test\DRT\obj\Debug\DRT.exe
+E:\Projects\FreeORM_Project\Net.FreeORM.Test\Net.FreeORM.Test\DRT\obj\Debug\DRT.pdb

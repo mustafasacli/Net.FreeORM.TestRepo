@@ -1,0 +1,9 @@
+E:\Projects\FreeORM_Project\Net.FreeORM.Test\Net.FreeORM.Test\Net.FreeORM.Test_Odbc\bin\Debug\Net.FreeORM.Test_Odbc.exe.config
+E:\Projects\FreeORM_Project\Net.FreeORM.Test\Net.FreeORM.Test\Net.FreeORM.Test_Odbc\bin\Debug\Net.FreeORM.Test_Odbc.exe
+E:\Projects\FreeORM_Project\Net.FreeORM.Test\Net.FreeORM.Test\Net.FreeORM.Test_Odbc\bin\Debug\Net.FreeORM.Test_Odbc.pdb
+E:\Projects\FreeORM_Project\Net.FreeORM.Test\Net.FreeORM.Test\Net.FreeORM.Test_Odbc\obj\Debug\Net.FreeORM.Test_Odbc.csprojResolveAssemblyReference.cache
+E:\Projects\FreeORM_Project\Net.FreeORM.Test\Net.FreeORM.Test\Net.FreeORM.Test_Odbc\obj\Debug\Net.FreeORM.Test_Odbc.Properties.Resources.resources
+E:\Projects\FreeORM_Project\Net.FreeORM.Test\Net.FreeORM.Test\Net.FreeORM.Test_Odbc\obj\Debug\Net.FreeORM.Test_Odbc.csproj.GenerateResource.Cache
+E:\Projects\FreeORM_Project\Net.FreeORM.Test\Net.FreeORM.Test\Net.FreeORM.Test_Odbc\obj\Debug\Net.FreeORM.Test_Odbc.exe
+E:\Projects\FreeORM_Project\Net.FreeORM.Test\Net.FreeORM.Test\Net.FreeORM.Test_Odbc\obj\Debug\Net.FreeORM.Test_Odbc.pdb
+E:\Projects\FreeORM_Project\Net.FreeORM.Test\Net.FreeORM.Test\Net.FreeORM.Test_Odbc\bin\Debug\Net.FreeORM.dll
